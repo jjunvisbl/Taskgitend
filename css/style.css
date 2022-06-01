@@ -23,11 +23,14 @@
          justify-content: space-between;
      }
      
-     .topbaner {
+     header {
          background-image: url(https://cdn.pixabay.com/photo/2021/12/09/11/53/empire-state-building-6858030_960_720.jpg);
          height: 100vh;
          background-size: cover;
          position: relative;
+         max-width: 1240px;
+         margin: 0 auto;
+         padding: 0 20px;
      }
      
      .wrap h5 {
